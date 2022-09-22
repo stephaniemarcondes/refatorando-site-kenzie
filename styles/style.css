@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+#page {
+  height: 100vh;
+  background: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box {
+  width: 1280px;
+  height: 700px;
+  background-color: var(--color-white-1);
+
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+#login {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#login>form {
+  width: 340px;
+  margin-top: 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#login>h1 {
+  font-family: var(--Poppins);
+  font-size: 42px;
+  line-height: 62px;
+  text-align: center;
+  color: var(--color-orange);
+}
+
+#login>h1>small {
+  font-family: var(--Poppins);
+  font-size: 42px;
+  line-height: 62px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+form label {
+  font-family: var(--Roboto);
+  font-size: 16px;
+  line-height: 16px;
+
+  color: var(--color-primary);
+}
+
+form input {
+  height: 48px;
+  width: 100%;
+
+  padding: 16px;
+  background: var(--color-white-1);
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+}
+
+span {
+  font-size: 16px;
+  line-height: 38px;
+
+  color: var(--color-primary);
+}
+
+.footer {
+  font-family: var(--Roboto)
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer>a {
+  color: var(--color-orange);
+
+}
+
+.imgIndex {
+  margin-left: 16px;
+}
+
+form {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+
+}
+
+.spanLogin {
+  font-family: var(--Poppins);
+  font-style: normal;
+  font-size: 400;
+  margin-top: 40px;
+}
